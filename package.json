@@ -1,5 +1,5 @@
 {
-  "name": "react-utility-hooks",
+  "name": "@malconlobo/react-utility-hooks",
   "version": "1.0.0",
   "description": "A collection of utility React hooks.",
   "main": "./dist/index.js",
