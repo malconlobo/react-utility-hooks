@@ -1,0 +1,67 @@
+{
+  "name": "react-utility-hooks",
+  "version": "1.0.0",
+  "description": "A collection of utility React hooks.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "utility",
+    "useDebounce",
+    "useThrottle",
+    "usePrevious",
+    "useLocalStorage",
+    "useMediaQuery",
+    "useAsync",
+    "useInfiniteScroll",
+    "useIntersectionObserver"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malconlobo/react-utility-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malconlobo/react-utility-hooks/issues"
+  },
+  "homepage": "https://github.com/malconlobo/react-utility-hooks#readme",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jsdom": "^22.0.0",
+    "prettier": "^3.0.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.0",
+    "vitest": "^0.34.0"
+  }
+}
